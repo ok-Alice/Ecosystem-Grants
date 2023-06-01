@@ -7,7 +7,7 @@
 ## Project Overview :page_facing_up:
 ### Overview
 
-The goal of this project is to create an Ink! based liquid staking DAO which will implement the following functionality:
+The goal of this project is to create an Ink!-based liquid staking DAO that will implement the following functionality:
 - Users can participate in securing the network by staking their tokens.
 - Receive rewards for their staked tokens.
 - Receive a derivative token in exchange for the staked token, which they can use on other dapps or chains, hence the name liquid staking.
@@ -118,8 +118,8 @@ Components:
 
 ### Milestone 1 Validator selector
 
-- **Estimated duration:** 2 month 
-- **FTE:**  1,5 
+- **Estimated duration:** 2 months
+- **FTE:**  1.5 
 - **Costs:** 22,000 USD 
 
 
@@ -129,19 +129,19 @@ Components:
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 1. | XCM CE | We will write the XCM chain-extension allowing nominationpools manipulating |
+| 1. | XCM CE | We will write the XCM chain-extension allowing nomination pools manipulating |
 | 2. | Oracle | Implement simple oracle that allows publication of validator statistics |
 | 3. | Oracle prov | Implement backend scripts for provisioning oracle of data |
-| 4. | Validator Selector | Implement contract for optimized selection of nomination pool based on the validator statistics published by *Oracle.* |
+| 4. | Validator Selector | Implement contract for optimized selection of nomination pool based on the validator statistics |
+| **5.** | **Tutorial** | We will provide a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes and use the new functionality. |
 
 
+### Milestone 2  issuer-staker
 
+- **Estimated Duration:** 3 months
+- **FTE:**  1.5 
+- **Costs:** 33,000 USD 
 
-### Milestone 2 Issuer-Staker
-
-- **Estimated duration:** 2 month 
-- **FTE:**  1,5 
-- **Costs:** 22,000 USD 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -149,26 +149,47 @@ Components:
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 1. | Issuer-Staker | Implement contract to provide PSP22 interface to an asset for the derivative token and managing staking operations |
-| 2. | Staking UI | Implement end-user UI for staking operations | 
-
-### Milestone 3 Bootstrap phase
-
-- **Estimated duration:** 2 weeks
-- **FTE:**  1,5 
-- **Costs:** 11,000 USD 
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License | GPLv3 |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article** that explains how liquid staking was implemented in an Ink! environment |
-| 1. | Deploy | We will deploy an instance of the contract on Shibuya(Westend) |
-| 2. | Documentation | We will provide online documentation detailing functioning of first pool instance |
-| 3. | Documentation | We will provide online documentation for deploying your own strategy for managing pool |
-| 4. | Audit | We will have an external organisation audit the contract |
-| 5. | Deploy | We will deploy an instance of the contract on Shiden(Kusama) |
+| 1. | psp22 interface | We will write the contract for issuer-staker in which a derivative token is created. |
+| 2. | Staking operations | We will implement staking operations on the nomination pool with an issuer-staker contract. |
+| **3.** | **Tutorial** | We will provide a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes and use the new functionality. |
 
 
+### Future Plans
+
+In the future, we plan to:
+- Extend the functionality of the liquid staking DAO to support other networks and assets.
+- Integrate additional features such as on-chain governance mechanisms.
+- Explore partnerships and collaborations with other projects in the Polkadot ecosystem.
+- Continuously improve the user experience and security of the liquid staking DAO.
+
+
+## Additional Information :information_source:
+
+**⚠️ okAlice TODO ⚠️**
+
+Is there anything else you think it is important for the council to know about your project? 
+
+
+## Marketing strategy :loudspeaker:
+
+Our marketing strategy will include:
+- Engaging with the Polkadot community through social media channels and forums.
+- Collaborating with influencers and content creators to promote the liquid staking DAO.
+- Hosting webinars and workshops to educate users about the benefits of liquid staking.
+- Participating in conferences and events to showcase our project.
+- Implementing a referral program to incentivize users to invite others to join the liquid staking DAO.
+
+## Engagement plans :memo:
+
+To ensure active engagement with the Polkadot ecosystem, we plan to:
+- Regularly communicate updates and progress through our social media channels and project website.
+- Actively participate in the Polkadot community by joining discussions and providing support on forums.
+- Collaborate with other projects and developers in the ecosystem to foster innovation and collaboration.
+- Seek feedback from the community and incorporate suggestions and improvements into our roadmap.
+- Contribute to the Ink! ecosystem by sharing our learnings, code, and documentation.
+
+## Risks :warning:
+
+**⚠️ okAlice TODO ⚠️**
+
+- Identify potential risks and challenges that could impact the success of your project. Examples include regulatory challenges, technical hurdles, market competition, etc.
